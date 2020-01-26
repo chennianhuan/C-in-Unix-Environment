@@ -3,10 +3,6 @@
 #include <string.h>
 #include <regex.h>
 
-/* a C program to count the total number of commented characters and words in 
-*  a C file taking both types of C file comments (single line and block) into account
-*/
-
 char *getfileall(char *fname) {
 
 	FILE *fp;
